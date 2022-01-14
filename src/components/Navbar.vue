@@ -8,13 +8,11 @@
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home
-            <span class="visually-hidden">(current)</span>
-          </a>
+        <li class="nav-item active">
+         <router-link to="/" style="text-decoration: none;"><a class="nav-link" >Home</a></router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <router-link to="/about" style="text-decoration: none;"><a class="nav-link">About</a></router-link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
@@ -23,7 +21,7 @@
       <div class="d-flex justify-content-lg-end">
         <ul  class="navbar-nav me-auto">
           <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">GITHUB</a>
         </li>
         </ul>
       </div>

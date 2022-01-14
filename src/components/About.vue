@@ -1,12 +1,12 @@
 <template>
-  <div>
-  <app-nav></app-nav>
-  <router-view></router-view>
-  </div>
+  <h2>About</h2>
 </template>
 
 <script>
 export default {
+  setup() {
+
+  },
 }
 </script>
 

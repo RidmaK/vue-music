@@ -18,7 +18,7 @@ export default {
   },
   methods:{
     keyPressed(event){
-     var userAccessToken = 'BQANd7zMBFlkEK0BECGjwQRNr1Uvij56c4fNXuUXdTd1EWf4p4p-d9I2M6BNLBRySx-F6HydGHtEHplozWbAUyewG6oXvSqz5DK3t_6VshedUXx8K1X2yDM1MOWxBhumAAc4sI7W1WD7q5hdWo0UeF1CtxpPf9gJIAWULBd-8FOAy4u3'
+     var userAccessToken = 'BQCnDTAukDDrNVbFp9QUlkSd3h_brmesS6duKdDvN-U42nqV8jf-mPtDBoQshY3yBNsB3ttfTHEqXLNrTHxsbqynr46M1GSAbg0bqJ5BX5e8zMWWzqZYm982E66ADirtwTKSG3YCVfpFyGYHGpCWfUmktZ4gShbsdXIVECL8277Hvc2ubMSrEtxf5yPnqLsgGX0'
       var txt = event.target.value;
 
         const endpoint = "https://api.spotify.com/v1/search";
